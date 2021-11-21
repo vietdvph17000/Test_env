@@ -20,6 +20,7 @@ public class NewJFrame extends javax.swing.JFrame {
     public NewJFrame() {
         initComponents();
         con = helper.ketnoi();
+        setLocationRelativeTo(null);
         if(con!=null){
             JOptionPane.showMessageDialog(this, "TC");
         }else{
